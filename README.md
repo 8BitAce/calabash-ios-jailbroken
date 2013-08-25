@@ -15,6 +15,7 @@ How to Use
 2. Edit the filter (Calabash.plist) to fit the package name of the app(s) you will be using. (This can be done on device as well). (I'll make this cleaner later).
 3. With theos properly configured run `make package install` to install the tweak on your iOS device.
 3. Install Calabash on your OS X device by installing the calabash-cucumber gem.
+4. In a directory of your choice run `calabash-ios gen` for a features skeleton.
 3. Set the following environment variables via `export VAR_NAME=VALUE`
   * `NO_LAUNCH=1`
   * `DEVICE=iphone`
