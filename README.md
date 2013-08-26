@@ -9,6 +9,18 @@ allowing for custom automated testing (or just plain automation).
 At the moment the methods used to do this are not user-friendly and have quite a few limitations, so YMMV.
 
 
+Example
+=======
+The following video demonstrates some very basic usage of Calabash. Note that no contact with the screen was made, all the touches were synthesized by Calabash over WiFi.
+This is the "script" that was used:
+```
+Scenario: Example steps
+  First I touch the "Search or type URL" input field"
+  Then I use the native keyboard to enter "www.google.com" into the "Search or type URL" input field
+  Then I touch done
+```
+http://www.youtube.com/watch?v=KmKGvOGanLE
+
 How to Use
 ==========
 1. Download the current calabash.framework from https://github.com/calabash/calabash-ios/downloads and place in the same directory as this project.
